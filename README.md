@@ -2,9 +2,6 @@
 
 ```cpp
 //////////////////////////////////////////////////////////////////////////
-///  Copyright (c) 2024 DINGYI GU
-///  All rights reserved.
-///
 ///  \author  Gu Dingyi
 ///
 ///  \file    README.md
@@ -21,7 +18,7 @@
 
 - Error may be frequently encountered during compile. Alternatively, `docker image` is recommended.
   
-  ### Docker Setup
+  ### Docker setup
 
 - Check [personalrobotics/ros-openrave](https://hub.docker.com/r/personalrobotics/ros-openrave/tags)
   
