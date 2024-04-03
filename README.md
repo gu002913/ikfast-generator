@@ -75,6 +75,3 @@
 ```
 
 - Verify your results with the real robot.
-  
-  ### Config solver in your own project
-- Create a class called `ikfast_wrapper` to hold the `ikfast solver`.
