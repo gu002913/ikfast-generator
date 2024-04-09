@@ -36,7 +36,7 @@
   
   ### Closed-form solver generation
 
-- Now go to `\root\data` in the docker image will direct to the same workspace.
+- Now go to `/root/data` in the docker image will direct to the same workspace.
 
 - `xml`file like `ur5.robot.xml` represents the robot model. Use `ikfastpy` to generate the `ikfast solver`.
   
@@ -72,3 +72,30 @@
 ```
 
 - Verify your results with the real robot.
+  
+  ### Reference
+
+- For more information and to explore other interesting projects, please refer to the following research papers:
+  
+  ```bibtex
+  @phdthesis{diankov_thesis,
+    author = "Rosen Diankov",
+    title = "Automated Construction of Robotic Manipulation Programs",
+    school = "Carnegie Mellon University, Robotics Institute",
+    month = "August",
+    year = "2010",
+    number= "CMU-RI-TR-10-29",
+    url={http://www.programmingvision.com/rosen_diankov_thesis.pdf},
+  }
+  ```
+  
+  ```bibtex
+  @inproceedings{zeng2018learning,
+  title={Learning synergies between pushing and grasping with self-supervised deep reinforcement learning},
+  author={Zeng, Andy and Song, Shuran and Welker, Stefan and Lee, Johnny and Rodriguez, Alberto and Funkhouser, Thomas},
+  booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4238--4245},
+  year={2018},
+  organization={IEEE}
+  }
+  ```
